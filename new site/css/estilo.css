@@ -1,10 +1,32 @@
-header{
-    color: blue;
+.maimage{
 
+    padding-left: 10%;
 
 
 
 }
+.introduction{
+    
+    font-size: 350%;
+    font-weight: 800s;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+.intro_subtitle{
+    color: darkgrey;
+    
+}
+.whoami{
+
+    padding-top: 20%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-weight: 800;
+
+
+}
+
 
 
 
