@@ -1,9 +1,6 @@
 .maimage{
 
     padding-left: 10%;
-
-
-
 }
 .introduction{
     
@@ -11,18 +8,65 @@
     font-weight: 800s;
     padding-left: 10%;
     padding-top: 10%;
-
 }
 .intro_subtitle{
-    color: darkgrey;
-    
+    color: darkgrey; 
 }
 .whoami{
 
     padding-top: 20%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     text-align: center;
     font-weight: 800;
+}
+.whoamitext{
+
+    font-weight: 800;
+    margin: 5%;
+    font-family: serif;
+}
+.progress{
+    
+    margin: 5%;
+}
+.progresstext{
+
+    margin: 5%;
+    font-family: fantasy;
+}
+.lines{
+    margin: 10%;
+
+}
+span{
+
+    width: 10px;
+    height: 40px;
+    background: black;
+    border-radius: 5px;
+    margin: 6px;
+    animation: move 1.1s infinite ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+
+}
+span:nth-of-type(1){
+
+    transform: rotate(45deg);
+
+}
+span:nth-of-type(2){
+
+    transform: rotate(-45deg);
+
+}
+@keyframes move{
+    0%{margin-top: 0;}
+    50%{margin-top: 100px}
+    100%{margin-top: 0px;}
+
 
 
 }
